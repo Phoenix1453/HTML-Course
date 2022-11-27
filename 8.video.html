@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Video</title>
+</head>
+<body>
+    <!--
+        src kısmına vidonun yeri eklenir
+        controls yazılarak videonun kontrol edilmesi sağlanır
+        Eğer controls yazılmazsa video png olarak gözükür
+        Eğer tarayıcı HTML5 Desteklemiyorsa Tarayıcınız bu formatı desteklenmemektedir yazısı görüntülenir
+       autoplay sayfa yenilendiğinde veya sayfaya girdiğinde videonun otomatik başlamasını sağlar
+       Ancak autoplay artık engellendiği için autoplay muted yazarak otomatik ama sessiz başlaması sağlanır
+    -->
+    <video src="./videos/nisan.mp4" controls width="850px" autoplay muted>
+        Tarayıcınız bu formatı desteklenmemektedir
+    </video>
+</body>
+</html>
