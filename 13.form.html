@@ -6,31 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form & Inputs</title>
 </head>
-<!--
-    Kısaca input type list:
-    text
-    email
-    radio
-    submit
-    reset
-    date
-    password
-    checkbox
--->
+
 <body>
-    <!--
-        formlar <form> etiketi içine yazılır
-        Yazı label etiketi içine yazılır ama etiket koymadan direkt Name de yazabilirdik
-        br etiketiyle inputu yazının alt satırına aldık.
-        İnputa name id si verdik ve üstündeki satırda for="name" diyerek ikisi arasında bağ kurduk
-        Bu bağ sayesinde kullanıcı Name yazısına tıklarsa input girilen yer aktif olacaktır
-        name kısmı php ile ilgili o yüzden bilmene gerek yok
-        Value değeri submit butonunun adını Gönder olarak değişti
-        Altındaki satırda aynı şeyi buton kullanarak yaptık ARADA FARK YOK
-        type="reset" olan input türü inputun içindekileri o butona basınca siler
-         placeholder kullanıcı oraya yazı girmeden önce soluk şekilde gözükecek yazı belirler
-            Kulanıcı bir ey yazar yazmaz kaybolur ve tamamını silince geri gelir
-        -->
+
     <form>
 
         <!--HTML5 Input-->
@@ -54,11 +32,7 @@
         <label for="date">Tarih</label> <br>
         <input type="date" id="date" name="date"> <br> <br>
 
-        <!--
-        type="radio" Seçeneklerden sadece birini seçmeyi zorunlu tutar başka bir şey seçilirse diğer seçimi kaldırır
-        Eğer birinin name değeri gender2 ya da farklı bir şey olsaydı diğer ikisinden birini ve onu seçebilirdik
-        checked attribute u sayesinde sayfa yenilenince male otomatik işaretli gelir
-        -->
+
 
         Gender <br>
         Male 
@@ -68,9 +42,7 @@
         Other 
         <input type="radio" name="gender" value="other"> <br>
 
-        <!--
-            type="checkbox" ile işaretlenebilir kutular yapılır
-        -->
+
 
         Hobbies <br>
         Technology
@@ -80,12 +52,7 @@
         Art
         <input type="checkbox" name="art" id="art">
 
-        <!--
-            select ile seçim listesi oluşturduk
-            option ile seçenekler ekledik
-            options valuedeki değerler yandaki değerlerin ingilizcesi
 
-        -->
 
         Degree <br>
         <select name="degree" id="degree">
@@ -94,14 +61,6 @@
             <option value="phd">Doktora</option>
         </select>
 
-        <!--
-            textarea ile büyük bir yazı yeri oluşturup
-            rows ile default olarak kaç satır geleceği
-            cols ile default olarak kac sutun geleceğini belirttik
-            Daha sonra sayfada büyütebiliyoruz yine de
-            placeholder kullanıcı oraya yazı girmeden önce soluk şekilde gözükecek yazı belirler
-            Kulanıcı bir ey yazar yazmaz kaybolur ve tamamını silince geri gelir
-        -->
 
         <textarea name="message" id="message" rows="15" cols="30" placeholder="Your message"></textarea>
    </form>
