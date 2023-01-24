@@ -1,4 +1,4 @@
-var password = "SerhatK2"
+var password = "Şifre"
 console.log(password)
 
 var yas = 16
