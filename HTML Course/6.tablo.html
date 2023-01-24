@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!--
+    ilk satırla tabloda kenarlık oluşturduk
+    İkinci satırla kenarları birleştirdik
+-->
+<style>
+    table,th,td
+    {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+</style>
+<!--
+    tr ile tabloda bir satır oluşturulur.
+    th ile başlık koyu yapılır
+    Tabloya içerik eklemek için tekrar tr yazıp
+    td kullanarak içine değer ekliyoruz
+    Tablo başlığı thead ın içine
+    Tablo içeriği tbody nin içine alınır
+-->
+<body>
+   <table>
+    <thead>
+    <tr>
+        <th>
+            Name
+        </th>
+        <th>
+            Department
+        </th>
+        <th>
+            Salary
+        </th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>
+            Serhat
+        </td>
+        <td>
+            Siber Güvenlik
+        </td>
+        <td>
+            7500
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Efe
+        </td>
+        <td>
+            Oyun
+        </td>
+        <td>
+            6500
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Ömer
+        </td>
+        <td>
+            Data Analysist
+        </td>
+        <td>
+            8500
+        </td>
+    </tr>
+    </tbody>
+    
+
+</table>
+</body>
+</html>
