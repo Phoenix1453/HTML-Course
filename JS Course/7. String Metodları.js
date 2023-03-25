@@ -42,4 +42,3 @@ veri = hobbies.split(" "); //Liste oluşturdu, elemanları ayırmak için boşlu
 console.log(veri);
 console.log(typeof veri);
 
-//KODU BU HALDE ÇALIŞTIRIRSAN ÇIKTILAR DEĞİŞİKLİK GÖSTEREBİLİR. ÇÜNKÜ VERİ DEĞİŞKENİNİ SÜREKLİ DEĞİŞTİRİP DURDUK İNDEX ALIRKEN VS.
